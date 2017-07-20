@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 
-/my-app-demo/node_modules
+/_my-app-demo/node_modules
 
 # testing
 /coverage
