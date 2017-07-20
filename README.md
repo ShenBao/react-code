@@ -1,8 +1,6 @@
 # README
 
-
 react-demo
-
 
 - [_my-app-demo](_my-app-demo)： 所有demo产出环境(基于create-react-app)
 
