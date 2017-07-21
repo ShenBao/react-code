@@ -1,6 +1,6 @@
 
 
-var pro = 'handling-events';
+var pro = 'conditional-rendering';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
