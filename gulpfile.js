@@ -1,6 +1,6 @@
 
 
-var pro = 'state-and-lifecycle';
+var pro = 'handling-events';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
