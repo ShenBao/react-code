@@ -15,7 +15,7 @@ this.setState({
 });
 ```
 
-状态更新可能是异步的
+## 状态更新可能是异步的
 
 React 可以将多个setState() 调用合并成一个调用来提高性能。
 
@@ -39,4 +39,8 @@ this.setState(function(prevState, props) {
 ```
 
 
+## `状态更新合并`
 
+当你调用 setState() 时，React 将你提供的对象合并到当前状态。
+
+## `数据自顶向下流动`
