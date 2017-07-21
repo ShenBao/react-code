@@ -39,8 +39,4 @@ this.setState(function(prevState, props) {
 ```
 
 
-状态更新合并
-
-当你调用 setState() 时，React 将你提供的对象合并到当前状态。
-
 

@@ -1,13 +1,13 @@
 
 
-var pro = 'ComponentMain';
+var pro = 'state-and-lifecycle';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
     clean = require('gulp-clean');
 
 gulp.task('copy', function () {
-    gulp.src(['./_my-app-demo/package.json','./_my-app-demo/yarn.lock'])
+    gulp.src(['./_my-app-demo/package.json','./_my-app-demo/yarn.lock','./_my-app-demo/README.md'])
         .pipe(gulp.dest(dist));
 });
 gulp.task('copySrc', function () {
