@@ -1,6 +1,6 @@
 
 
-var pro = 'conditional-rendering';
+var pro = 'lists-and-keys';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
