@@ -1,6 +1,6 @@
 
 
-var pro = 'test';
+var pro = 'ComponentMain';
 var dist = './'+pro;
 
 var gulp = require('gulp'),

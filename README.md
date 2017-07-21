@@ -7,8 +7,8 @@ react-demo
 ## dome list
 - [my-app](my-app)：creat-react-app工具产生的
 - [Hello World!](hello-word)：helloword
-
-
+- [createClass](createClass): createClass、createFactory
+- [ComponentMain](ComponentMain): 站点主体结构
 
 
 
