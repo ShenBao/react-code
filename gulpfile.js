@@ -1,6 +1,6 @@
 
 
-var pro = 'forms';
+var pro = 'lifting-state-up';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
