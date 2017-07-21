@@ -1,6 +1,6 @@
 
 
-var pro = 'lists-and-keys';
+var pro = 'forms';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
