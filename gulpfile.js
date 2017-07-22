@@ -1,6 +1,11 @@
 
 
-var pro = 'refs-and-the-dom';
+var pro = 'uncontrolled-components';
+
+
+
+
+
 var dist = './'+pro;
 
 var gulp = require('gulp'),

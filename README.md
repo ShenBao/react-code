@@ -21,6 +21,8 @@ react-demo
 0. [jsx-in-depth](jsx-in-depth): 深入JSX
 0. [typechecking-with-proptypes](typechecking-with-proptypes): 使用 PropTypes 进行类型检查
 0. [refs-and-the-dom](refs-and-the-dom): 使用 PropTypes 进行类型检查
+0. [uncontrolled-components](uncontrolled-components): 非受控组件
+
 
 
 
