@@ -1,6 +1,6 @@
 
 
-var pro = 'findDOMNode refs';
+var pro = 'react-mixin';
 
 
 
