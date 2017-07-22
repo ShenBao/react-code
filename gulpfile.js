@@ -1,6 +1,6 @@
 
 
-var pro = 'handleChildValueChange';
+var pro = 'defaultProps';
 
 
 
