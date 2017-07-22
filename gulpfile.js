@@ -1,6 +1,6 @@
 
 
-var pro = 'lifting-state-up';
+var pro = 'jsx-in-depth';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
