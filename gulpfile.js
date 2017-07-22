@@ -1,6 +1,6 @@
 
 
-var pro = 'uncontrolled-components';
+var pro = 'react-without-es6';
 
 
 
