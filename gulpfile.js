@@ -1,6 +1,6 @@
 
 
-var pro = 'react-mixin';
+var pro = 'styleComponen';
 
 
 

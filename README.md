@@ -32,7 +32,7 @@ react-demo
 0. [defaultProps](defaultProps): 
 0. [findDOMNode refs](findDOMNode refs): 
 0. [react-mixin](react-mixin): 
-0. [](): 
+0. [styleComponen](styleComponen): 
 0. [](): 
 0. [](): 
 0. [](): 
