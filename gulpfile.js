@@ -1,6 +1,6 @@
 
 
-var pro = 'defaultProps';
+var pro = 'findDOMNode refs';
 
 
 
