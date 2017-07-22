@@ -1,6 +1,6 @@
 
 
-var pro = 'typechecking-with-proptypes';
+var pro = 'refs-and-the-dom';
 var dist = './'+pro;
 
 var gulp = require('gulp'),

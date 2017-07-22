@@ -20,6 +20,7 @@ react-demo
 0. [lifting-state-up](lifting-state-up): 状态提升目的，数据共享
 0. [jsx-in-depth](jsx-in-depth): 深入JSX
 0. [typechecking-with-proptypes](typechecking-with-proptypes): 使用 PropTypes 进行类型检查
+0. [refs-and-the-dom](refs-and-the-dom): 使用 PropTypes 进行类型检查
 
 
 
