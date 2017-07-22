@@ -1,6 +1,6 @@
 
 
-var pro = 'react-without-jsx';
+var pro = 'dangerouslySetInnerHTML';
 
 
 
