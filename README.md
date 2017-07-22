@@ -23,6 +23,7 @@ react-demo
 0. [refs-and-the-dom](refs-and-the-dom): 使用 PropTypes 进行类型检查
 0. [uncontrolled-components](uncontrolled-components): 非受控组件
 0. [react-without-es6](react-without-es6): 不使用ES6
+0. [react-without-jsx](react-without-jsx: 不使用JSX
 
 
 

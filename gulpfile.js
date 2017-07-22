@@ -1,6 +1,6 @@
 
 
-var pro = 'react-without-es6';
+var pro = 'react-without-jsx';
 
 
 
