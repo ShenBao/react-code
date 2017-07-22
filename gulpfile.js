@@ -1,6 +1,6 @@
 
 
-var pro = 'dangerouslySetInnerHTML';
+var pro = 'handleChildValueChange';
 
 
 
