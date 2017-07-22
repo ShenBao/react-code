@@ -1,6 +1,6 @@
 
 
-var pro = 'jsx-in-depth';
+var pro = 'typechecking-with-proptypes';
 var dist = './'+pro;
 
 var gulp = require('gulp'),
