@@ -1,6 +1,6 @@
 
 
-var pro = 'styleComponen';
+var pro = 'antd-Input-Button';
 
 
 
