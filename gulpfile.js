@@ -1,6 +1,6 @@
 
 
-var pro = 'antd-Input-Button';
+var pro = 'react-router-init';
 
 
 
