@@ -12,7 +12,7 @@ export default class BodyChild extends React.Component{
 			p: {
 				backgroundColor: "#333333",
 				color: "#FFFFFF",
-				"padding-top": (this.state.miniHeader) ? "3px" : "15px",
+				"paddingTop": (this.state.miniHeader) ? "3px" : "15px",
 				paddingBottom: (this.state.miniHeader) ? "3px" : "15px"
 			},
 			//还可以定义其他的样式
