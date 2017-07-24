@@ -1,6 +1,6 @@
 
 
-var pro = 'react-router-init';
+var pro = 'react-router-antd';
 
 
 
