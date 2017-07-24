@@ -30,7 +30,7 @@ react-demo
 0. [ComponentMain](ComponentMain): 站点主体结构demo
 0. [dangerouslySetInnerHTML](dangerouslySetInnerHTML): dangerouslySetInnerHTML
 0. [defaultProps](defaultProps): 
-0. [findDOMNode refs](findDOMNode refs): 
+0. [findDOMNode-refs](findDOMNode-refs): 
 0. [react-mixin](react-mixin): 
 0. [styleComponen](styleComponen): 
 0. [antd-Input-Button](antd-Input-Button): 
