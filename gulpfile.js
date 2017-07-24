@@ -1,6 +1,6 @@
 
 
-var pro = 'react-router-antd-Menu';
+var pro = 'MediaQuery';
 
 
 
