@@ -18,7 +18,8 @@
 - [Provider、connect的使用：react-redux-todolist](./react-redux-todolist)
 
 - [combineReducers来拆分状态、actionCreators与actionTypes的拆分](./react-redux-todolist-combineReducers)
-
+- [使用Immutable.js来管理store中的数据](./react-redux-todolist-immutable-js)
+- [使用redux-immutable统一数据格式](./react-redux-todolist-redux-immutable)
 
 
 
