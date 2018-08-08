@@ -4,9 +4,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import store from './store';
 
-import TodoList from './pages/TodoList/index';
-import Test from './pages/Test/index';
+import TodoList from './pages/todoList/index';
 import Login from './pages/login/index';
+import Register from './pages/register/index';
 
 
 class App extends Component {
@@ -17,8 +17,8 @@ class App extends Component {
       		<div>
       			<Route path='/' exact component={Login}></Route>
             <Route path='/login' exact component={Login}></Route>
+            <Route path='/register' exact component={Register}></Route>
             <Route path='/todolist' exact component={TodoList}></Route>
-            <Route path='/test' exact component={Test}></Route>
             {/* <Route path='*' exact component={Login}></Route> */}
       		</div>
       	</BrowserRouter>

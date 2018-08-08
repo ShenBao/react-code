@@ -1,15 +1,15 @@
 
 import { combineReducers } from 'redux-immutable';
 
-import { reducer as TodoListReducer } from '../pages/TodoList/store';
-import { reducer as TestReducer } from '../pages/Test/store';
+import { reducer as TodoListReducer } from '../pages/todoList/store';
 import { reducer as loginReducer } from '../pages/login/store';
+import { reducer as registerReducer } from '../pages/register/store';
 
 
 const reducer = combineReducers({
+    login: loginReducer,
     todoList: TodoListReducer,
-    test: TestReducer,
-    login: loginReducer
+    register: registerReducer
 });
 
 export default reducer;

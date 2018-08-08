@@ -1,36 +1,44 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Redirect } from 'react-router-dom';
 import { TodoListBox, Item, Input, Button, Title } from './style';
 
 import { actionCreators } from './store/index';
 
 const TodoList = (props) => {
-    const { inputValue, onChangeInput, onBtnClickHandle, list, onDeleteItemClick } = props;
-    return (
-        <TodoListBox>
-            <Title>登录成功</Title>
-            <div style={{ textAlign: "center" }}>
-                <Input type="text" value={inputValue} onChange={onChangeInput} />
-                <Button onClick={onBtnClickHandle}>提交</Button>
-            </div>
-            <ul>
-                {list.map((item, index) => {
-                    return <Item
-                        key={index}
-                        onClick={() => {
-                            onDeleteItemClick(index)
-                        }}>{item}</Item>
-                })
-                }
-            </ul>
-        </TodoListBox>
-    )
+    const { loginStatus, inputValue, onChangeInput, onBtnClickHandle, list, onDeleteItemClick } = props;
+    console.log(loginStatus);
+
+    if (loginStatus) {
+        return (
+            <TodoListBox>
+                <Title>登录成功</Title>
+                <div style={{ textAlign: "center" }}>
+                    <Input type="text" value={inputValue} onChange={onChangeInput} />
+                    <Button onClick={onBtnClickHandle}>提交</Button>
+                </div>
+                <ul>
+                    {list.map((item, index) => {
+                        return <Item
+                            key={index}
+                            onClick={() => {
+                                onDeleteItemClick(index)
+                            }}>{item}</Item>
+                    })
+                    }
+                </ul>
+            </TodoListBox>
+        )
+    } else {
+        return <Redirect to='/login' />
+    }
 };
 
 const mapStateToProps = (state) => {
     return {
         inputValue: state.getIn(['todoList', 'inputValue']),
-        list: state.getIn(['todoList', 'list'])
+        list: state.getIn(['todoList', 'list']),
+        loginStatus: state.getIn(['login', 'login'])
     }
 }
 
