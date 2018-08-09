@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { LoginBox, LoginTitle, Input, Button } from './style';
 import { actionCreators } from './store';
@@ -60,7 +59,6 @@ class Register extends Component {
 }
 
 const mapState = (state) => ({
-	loginStatus: state.getIn(['login', 'login']),
 	form: state.getIn(['register', 'form'])
 })
 
