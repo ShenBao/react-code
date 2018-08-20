@@ -1,0 +1,41 @@
+.header {
+    padding-top: 40px;
+    .title {
+        display: inline-block;
+        line-height: 2.2;
+        text-align: center;
+    }
+    button {
+        user-select: none;
+        outline: 0;
+        &.login,
+        &.signout {
+            float: right;
+            margin: 11px 6px 0 10px;
+            font-size: 15px;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            border: none;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857;
+            border-radius: 4px;
+        }
+        &.register {
+            float: right;
+            width: 80px;
+            height: 38px;
+            line-height: 24px;
+            margin: 9px 5px 0 15px;
+            border: 1px solid rgba(236, 97, 73, .7);
+            border-radius: 20px;
+            background-color: rgba(236, 97, 73, .05);
+            font-size: 15px;
+            color: #ec6149;
+        }
+    }
+}
