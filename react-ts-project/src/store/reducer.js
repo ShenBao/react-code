@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
+import { homeReducers } from '../reducers'
+
 const reducer = combineReducers({
-	// globalData: {
-	// 	appName: 'React Redux TypeScript Project'
-	// }
+	home: homeReducers
 });
 
 export default reducer;
