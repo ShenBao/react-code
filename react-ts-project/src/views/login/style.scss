@@ -1,2 +1,42 @@
 .login {
+    .content {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+        vertical-align: middle;
+        h3 {
+            text-align: center;
+            color: #3194d0;
+            line-height: 50px;
+        }
+        .input {
+            padding: 5px;
+        }
+        input {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            height: 40px;
+            margin-bottom: 0;
+            padding: 4px 12px 4px 35px;
+            border: 1px solid #c8c8c8;
+            border-radius: 4px;
+            background-color: hsla(0, 0%, 71%, .1);
+            vertical-align: middle;
+        }
+        button {
+            width: 70%;
+            padding: 12px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+            display: block;
+            background: #3194d0;
+            margin: 20px auto;
+        }
+    }
 }

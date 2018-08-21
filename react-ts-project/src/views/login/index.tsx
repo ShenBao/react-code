@@ -7,7 +7,16 @@ class Login extends React.Component {
 
         return (
             <div className="login">
-                login
+                <div className="content">
+                    <h3>登录</h3>
+                    <div className="input">
+                        <input type="text" placeholder="手机号"/>
+                    </div>
+                    <div className="input">
+                        <input type="text" placeholder="密码"/>
+                    </div>
+                    <button>登录</button>
+                </div>
             </div>
         );
     }
