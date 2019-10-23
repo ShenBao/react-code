@@ -1,0 +1,25 @@
+.ToDoListUI h1 {
+    color: red;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+input {
+    min-width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+button {
+    display: inline-block;
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.list {
+    padding: 10px 20px;
+    line-height: 2;
+}

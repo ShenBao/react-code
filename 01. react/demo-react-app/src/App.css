@@ -1,0 +1,11 @@
+.App h1 {
+    color: red;
+    padding-left: 20px;
+}
+.content {
+    padding: 20px;
+}
+ul {
+    list-style: none;
+    padding-top: 10px;
+}

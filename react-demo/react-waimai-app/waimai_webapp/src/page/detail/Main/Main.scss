@@ -1,0 +1,40 @@
+.detail {
+    .mask {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .tab-bar {
+        font-size: px2rem(16px);
+        display: flex;
+        border-bottom: 1px solid #f0f0f0;
+        margin-top: px2rem(64px);
+        .tab-item {
+            flex: 1;
+            height: px2rem(45px);
+            line-height: px2rem(45px);
+            position: relative;
+            color: #666;
+            text-align: center;
+            text-decoration: none;
+            &.active {
+                &:after {
+                    content: '';
+                    display: block;
+                    height: 4px;
+                    width: 60px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    background-color: #ffd161;
+                }
+            }
+        }
+    }
+    
+}

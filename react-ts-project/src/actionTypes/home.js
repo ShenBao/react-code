@@ -1,1 +1,0 @@
-export const ACTIONSTYPES = 'home/ACTIONSTYPES';

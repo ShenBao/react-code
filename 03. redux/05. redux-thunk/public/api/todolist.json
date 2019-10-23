@@ -1,0 +1,8 @@
+{
+    "code": 200,
+    "data": [
+        "Hello React",
+        "Learning React",
+        "Hello Redux"
+    ]
+}

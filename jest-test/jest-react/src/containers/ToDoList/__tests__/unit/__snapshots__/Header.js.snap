@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header 组件 渲染正常 1`] = `
+<div>
+  <h1>
+    ToDoList
+  </h1>
+  <input
+    data-test="input"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="ToDoList Input"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Header 组件包含一个 input 框 1`] = `
+<div>
+  <h1>
+    ToDoList
+  </h1>
+  <input
+    data-test="input"
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="ToDoList Input"
+    type="text"
+    value=""
+  />
+</div>
+`;

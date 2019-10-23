@@ -1,0 +1,19 @@
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.header a{
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.header span {
+    color: hotpink;
+    cursor:pointer;
+}
+
+.header span:last-of-type{
+    float: right;
+}

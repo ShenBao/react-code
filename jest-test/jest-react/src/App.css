@@ -1,0 +1,22 @@
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+.list-item {
+  height: 25px;
+  line-height: 25px;
+}
+
+.delete-item {
+  display: inline-block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid #999999;
+  cursor: pointer;
+}
