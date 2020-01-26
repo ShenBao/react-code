@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  margin: 0 auto;
+  // width: 400px;
+  .header {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;;
+    flex-direction: row;
+    padding: 20px;
+    > div {
+      // flex: 1;
+      text-align: center;
+      font-size: 24px;
+      padding: 0 10px;
+    }
+    .current {
+      color: #0958d9;
+    }
+    .countdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: hsl(333 100% 50%);
+      span {
+        font-size: 16px;
+      }
+      .exceed {
+        color: red;
+        font-size: 12px;
+        margin: 0 4px;
+      }
+      .time {
+        font-weight: bolder;
+      }
+    }
+  }
+  .img {
+    text-align: center;
+  }
+}
