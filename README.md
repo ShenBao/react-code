@@ -1,6 +1,6 @@
 # react-code
 
-- [react-notes](https://github.com/ShenBao/react-notes) 对应的代码
+[react-notes](https://github.com/ShenBao/react-notes) 对应的笔记代码、一些零散的小示例及玩具存档
 
 ## More links
 
