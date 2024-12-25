@@ -1,0 +1,38 @@
+.spin-container {
+    position: relative;
+    .spin-box {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background-color: rgba(255, 255, 255, .6);
+        animation-duration: 500ms;
+        &.in {
+            animation-name: show;
+        }
+        &.out {
+            animation-name: hide;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

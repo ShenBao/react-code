@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #23272f;
+}
+
+.app-header::before {
+  content: url('./assets/arrow.svg');
+  position: absolute;
+  transform: rotateY(180deg) rotateZ(60deg) translateY(10px) translateX(60px);
+  transition: transform .3s ease;
+}
+
+.hide-arrow::before {
+  content: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .app-header::before {
+    transform: rotateY(0deg) rotateZ(240deg) translateY(70px) translateX(10px) scale(0.8);
+    transition: transform .3s ease;
+  }
+}
